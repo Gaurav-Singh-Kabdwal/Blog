@@ -9,7 +9,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 //const url = "mongodb://127.0.0.1:27017/blogDB";
 
-mongoose.connect(url);
+mongoose.connect(process.env.url);
 
 const postSchema = {
   title: String,
