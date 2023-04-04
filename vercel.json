@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "Break-Time-Journal",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
